@@ -39,6 +39,15 @@
             max-width: 200px;
             height: auto;
             margin-bottom: 20px;
+            display: block;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            min-height: 80px;
         }
         
         h1 {
@@ -128,8 +137,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <!-- App Logo - Update with your actual logo URL -->
-            <img src="https://www.debatabl.audio/logo.png" alt="Tea Break Logo" class="logo" onerror="this.style.display='none'">
+            <div class="logo-container">
+                <!-- App Logo - Upload logo.png to GitHub along with index.html -->
+                <img src="logo.png" alt="Tea Break Logo" class="logo" onerror="this.style.display='none'">
+            </div>
             <h1>Privacy Policy</h1>
             <p class="last-updated">Last Updated: November 2024</p>
         </div>
