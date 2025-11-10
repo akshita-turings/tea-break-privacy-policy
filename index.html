@@ -40,6 +40,8 @@
             height: auto;
             margin-bottom: 20px;
             display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .logo-container {
@@ -47,7 +49,8 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
-            min-height: 80px;
+            min-height: 100px;
+            width: 100%;
         }
         
         h1 {
@@ -139,7 +142,7 @@
         <div class="header">
             <div class="logo-container">
                 <!-- App Logo - Upload logo.png to GitHub along with index.html -->
-                <img src="logo.png" alt="Tea Break Logo" class="logo" onerror="this.style.display='none'">
+                <img src="logo.png" alt="Tea Break Logo" class="logo" style="max-width: 200px; height: auto;">
             </div>
             <h1>Privacy Policy</h1>
             <p class="last-updated">Last Updated: November 2024</p>
