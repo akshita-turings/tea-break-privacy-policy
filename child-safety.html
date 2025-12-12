@@ -16,7 +16,11 @@
 
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:24px;color:#0b2a2f;background:#fff}
 
-    header{border-bottom:1px solid #e6eef0;padding-bottom:12px;margin-bottom:18px}
+    header{border-bottom:1px solid #e6eef0;padding-bottom:12px;margin-bottom:18px;display:flex;align-items:center;gap:16px}
+
+    .logo{height:48px;width:48px;object-fit:contain}
+
+    .header-text{flex:1}
 
     h1{font-size:1.25rem;margin:0 0 6px}
 
@@ -42,9 +46,15 @@
 
   <header>
 
-    <h1>Child Safety Standards — Tea Break</h1>
+    <img src="https://akshita-turings.github.io/tea-break-privacy-policy/logo.png" alt="Tea Break Logo" class="logo" />
 
-    <div class="muted">Published by TURINGS XYZ PRIVATE LIMITED — Last updated: <span id="updatedDate"></span></div>
+    <div class="header-text">
+
+      <h1>Child Safety Standards — Tea Break</h1>
+
+      <div class="muted">Published by TURINGS XYZ PRIVATE LIMITED — Last updated: <span id="updatedDate"></span></div>
+
+    </div>
 
   </header>
 
@@ -82,7 +92,7 @@
 
       <dt>CSAE / CSAM</dt>
 
-      <dd>Any content that depicts, sexualizes, exploits, or endangers minors — including images, video, text, or links — is strictly forbidden.</dd>
+      <dd>Any content that depicts, sexualizes, exploits, or endangers minors — including text messages, stickers, GIFs, links, audio recordings, or any other form of content — is strictly forbidden.</dd>
 
       <dt>Sexual contact with minors</dt>
 
